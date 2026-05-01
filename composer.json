@@ -1,0 +1,37 @@
+{
+    "name": "samirlama/laravel-queue-monitor",
+    "description": "A lightweight Laravel package for monitoring queue jobs in real time.",
+    "type": "library",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Samirlama\\LaravelQueueMonitor\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Samirlama\\LaravelQueueMonitor\\Tests\\": "tests/"
+        }
+    },
+
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/queue": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    },
+
+    "require-dev": {
+        "orchestra/testbench": "^11.1"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samirlama\\LaravelQueueMonitor\\Providers\\QueueMonitorServiceProvider"
+            ]
+        }
+    }
+}
