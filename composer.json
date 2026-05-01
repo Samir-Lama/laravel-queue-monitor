@@ -1,8 +1,20 @@
 {
     "name": "samirlama/laravel-queue-monitor",
-    "description": "A lightweight Laravel package for monitoring queue jobs in real time.",
+    "description": "A lightweight Laravel package for recording failed queue jobs and reviewing them from a web dashboard.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "queue",
+        "failed-jobs",
+        "monitoring",
+        "dashboard"
+    ],
+    "authors": [
+        {
+            "name": "Samir Lama"
+        }
+    ],
 
     "autoload": {
         "psr-4": {

@@ -1,5 +1,9 @@
 # Laravel Queue Monitor
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/samirlama/laravel-queue-monitor.svg)](https://packagist.org/packages/samirlama/laravel-queue-monitor)
+[![Total Downloads](https://img.shields.io/packagist/dt/samirlama/laravel-queue-monitor.svg)](https://packagist.org/packages/samirlama/laravel-queue-monitor)
+[![License](https://img.shields.io/packagist/l/samirlama/laravel-queue-monitor.svg)](LICENSE)
+
 A lightweight Laravel package for recording failed queue jobs and reviewing them from a simple web dashboard.
 
 The package listens for Laravel's `JobFailed` event, stores the failed job connection, queue, payload, and exception message in a dedicated table, and provides a dashboard where failed jobs can be inspected and queued for retry.
